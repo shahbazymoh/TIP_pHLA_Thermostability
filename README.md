@@ -27,16 +27,16 @@
 % Compatible with the next versions of DIA-NN (e.g., 1.8.1 or 1.9.2)
 
 %%%%%%%%%%%%%%%*************** IMPORTANT ***************%%%%%%%%%%%%%%%%%%%
+
 % Input files: Please search your DIA data by DIA-NN (*MBR option should be uncheck) 
 % and use the "report.tsv" to organize and manupulate the results in a new "csv" file 
 % according to the example "data_table" below (imported data in the 1st step)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % This TIP code (Themal immunopeptidome profiler) performs thermostability profiling for individual HLA-bound peptides. 
 % The following steps are included in the code to preprocess and manupulate the DIA-based quantitative immunopeptidomics 
 dataset to calculate melting temperature (Tm) for peptide-HLA complexes (pHLAs).
-
 
 %%% *Step 1) Importing Data
 
