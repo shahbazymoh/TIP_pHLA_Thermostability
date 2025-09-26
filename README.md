@@ -59,6 +59,8 @@ dataset to calculate melting temperature (Tm) for peptide-HLA complexes (pHLAs).
 
 ******************************************************************************************************
 
-Contact For technical support or any questions, please send an email to the following developers:
+**Contact** For technical support or any questions, please send an email to the following developers:
+
 Dr Mohammad Shahbazy: shahbazymoh@gmail.com or mohammad.shahbazy@monash.edu
+
 Dr Nathan Croft: nathan.croft@monash.edu
