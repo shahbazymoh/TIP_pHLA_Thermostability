@@ -1,13 +1,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%% A pipeline for thermostability profiling of HLA-bound peptides %%%%%%
-%%%%%%%%% Themal immunopeptidome profiler (TIP) code, version 1.2 %%%%%%%%%%
+%%%%%%%%% Thermal immunopeptidome profiler (TIP) code, version 1.2 %%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%% This code has been created, developed, and validated by Mohammad (Moh) Shahbazy 
 %%% A PhD canidate at Department of Biochemistry and Molecular Biology  
 %%% Clayton Campus, Monash University (Melbourne, Australia)
 %%% Laboratory: Purcell Lab, Biomedicine Discovery Institute (BDI) 
-%%% Acknowledgements: Dr Nathan Croft and Prof Anthony Purcell, for supervison
+%%% Acknowledgements: Dr Nathan Croft and Prof Anthony Purcell, for supervision
 %%% Copyright© Mohammad Shahbazy (2019-2023).
 
 
@@ -50,11 +50,11 @@ rep_ref = {'37C_r1','37C_r2','37C_r3','42C_r1','42C_r2','42C_r3',...
 seq_tar = csvimport('DIANNv18_seqtarget_B57_37C.csv');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% *Step 3) selecting the quantification level for profiling as follows:
+%%% *Step 3) Selecting the quantification level for profiling as follows:
 
 % Note: 'y' denotes YES and 'n' denotes NO
 % Here we used MS1 peak area for quantitative peptidomics and
-% themostability profiling
+% thermostability profiling
 
 % 1) Precursor quantity (calculated by DIA-NN) 
 prec_quant = 'n';
@@ -79,7 +79,7 @@ else
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% *Step 4) Manupulating data to preprocess and generate a "data matrix" 
+%%% *Step 4) Manipulating data to preprocess and generate a "data matrix" 
 %%% of the quantified precursors across data points:
 
 for dp = 1:1:size(seq_tar,1)
@@ -145,7 +145,7 @@ data = dataini;
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% *Step 6) Rolling the data points to smooth the profile and manupulating
+%%% *Step 6) Rolling the data points to smooth the profile and manipulating 
 %%% outliers with constant values
 
 for i = 1:1:seg
@@ -381,7 +381,7 @@ seqt = seqt(ftid,1);
 %***** Evaluation/Validation of the fitting quality *****%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Percentage of the fitted curves with a good correlation with 
-% experimental data points R >= 0.75  
+% experimental data points, R >= 0.75  
 
 fit_cf = 0.75; % R >= 0.75
    
@@ -409,7 +409,7 @@ xticks([37:2:73]);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% *NOTE: If you need to check the denaturation  
 %%% profile for another sequence, check the 'seqt' vector from the Workspace
-%%% and change the sequence of "intseq" - at line 417 - to visualize another peptide 
+%%% and change the sequence of "intseq" - at line 418 - to visualize another peptide 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 grc = [0.93,0.93,0.93];
