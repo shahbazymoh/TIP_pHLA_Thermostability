@@ -4,19 +4,26 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%% This code has been created, developed, and validated by Mohammad (Moh) Shahbazy 
-%%% A PhD canidate at Department of Biochemistry and Molecular Biology  
+
+%%% A PhD canidate at Department of Biochemistry and Molecular Biology 
+
 %%% Clayton Campus, Monash University (Melbourne, Australia)
+
 %%% Laboratory: Purcell Lab, Biomedicine Discovery Institute (BDI) 
+
 %%% Acknowledgements: Dr Nathan Croft and Prof Anthony Purcell, for supervison
+
 %%% Copyright© Mohammad Shahbazy (2019-2023).
 
 
 %%% Creation date: June 2019
+
 %%% Last modification: March 2023
 
 % EXAMPLE DATASET: C1R-B*57:01 data acquired by Fusion Orbitrap (Thermo)
 
 % DIA-NN version 1.8.0 was used for library-based DIA data processing
+
 % Compatible with the next versions of DIA-NN (e.g., 1.8.1 or 1.9.2)
 
 %%%%%%%%%%%%%%%*************** IMPORTANT ***************%%%%%%%%%%%%%%%%%%%
