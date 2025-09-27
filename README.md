@@ -63,7 +63,7 @@ dataset to calculate melting temperature (Tm) for peptide-HLA complexes (pHLAs).
 
 %%% *Step 12) Drawing Denaturation Profiles with the corresponding Tm values for individual HLA peptides
 
-
+%%% *** Export the results for downstream immunoinformatics and other analyses
 ******************************************************************************************************
 
 **Contact** For technical support or any questions, please send an email to the following developers:
