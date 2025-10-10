@@ -13,7 +13,7 @@
 
 %%% Acknowledgements: Dr Nathan Croft and Prof Anthony Purcell, for supervision
 
-%%% Copyright© Mohammad Shahbazy (2019-2023).
+%%% Copyright© Mohammad Shahbazy (2019-present).
 
 
 %%% Creation date: June 2019
